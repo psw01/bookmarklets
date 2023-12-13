@@ -23,7 +23,6 @@ function put(s) {
 }
 
 elements_v.forEach((e) => {
-	e.controls = true;
 	source = e.querySelectorAll("source");
 	if (source.length > 0) {
 		source.forEach((s) => {
